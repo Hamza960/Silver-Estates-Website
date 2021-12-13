@@ -242,6 +242,11 @@ text-align: center;
 
 /* our mission css */
 
+.mission_title{
+    font-family: 'Montserrat', sans-serif;
+    color: antiquewhite;
+}
+
 .our_mission_section{
     background-image: url(../images/backgrounds/our_mission_bg.jpg);
     background-size: cover;
