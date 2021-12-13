@@ -11,8 +11,8 @@
 }
 
 .navbar{
-    background-color: #c00000 !important;
-    box-shadow: #c00000 !important;
+    background-color: #304e66 !important;
+    box-shadow: #304e66 !important;
     
 }
 
@@ -20,6 +20,40 @@
     color: antiquewhite !important;
     text-decoration: none !important;
     font-family: 'Montserrat', sans-serif;
+}
+
+.dropdown-menu{
+    background-color: #304e66 !important;
+    
+}
+
+.dropdown-item{
+    color:antiquewhite !important
+}
+
+.dropdown-item:hover{
+    background-color: #797b7e;
+}
+
+.contact_button{
+    background: none;
+    border: 3px solid antiquewhite;
+    padding: 5px 10px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color:antiquewhite;
+}
+
+.contact_button:hover{
+    background-color: antiquewhite;
+    color:#304e66;
+    transition: 0.5s;
+    float: right;
+}
+
+.nav-link:hover{
+    background-color: #797b7e;
 }
 
 .main_title{
@@ -84,15 +118,6 @@
     font-family: 'Montserrat', sans-serif;;
 }
 
-.contact_button{
-    background: none;
-    border: 3px solid antiquewhite;
-    padding: 5px 10px;
-    width: 150px;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-    color:antiquewhite;
-}
 
 .service_button:hover{
     background-color: #c00000;
@@ -101,12 +126,7 @@
     
 }
 
-.contact_button:hover{
-    background-color: antiquewhite;
-    color:#c00000;
-    transition: 0.5s;
-    float: right;
-}
+
 
 .banner_img{
     border-right: 2px solid #797b7e;
@@ -121,12 +141,13 @@
 
 .footer_card{
     background-color: antiquewhite;
-    
+    height:300px;
     color:#797b7e;
     -webkit-box-shadow: 0 10px 6px -6px #777;
      -moz-box-shadow: 0 10px 6px -6px #777;
           box-shadow: 0 10px 6px -6px #777;
           border-left: 2px solid #c00000;
+          margin-top: 20px;
 }
 .footer-card-inner{
     padding: 20px;
@@ -157,7 +178,7 @@
 
 /* about us css */
 .about_us_section{
-    background-image: url(../images/backgrounds/about_us_bg.jpg);
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(245, 246, 252, 0.52)), url(../images/backgrounds/about_us_bg.jpg);
     background-size: cover;
     
 }
@@ -170,51 +191,51 @@
 }
 
 .about_us_section h3{
-    color: #c00000;
+    color: #2b465c;
     font-family: 'Montserrat', sans-serif;
     padding-top: 20px;
 text-align: center;
 }
 
 .about_us_section h4{
-    color: #c00000;
+    color: #2b465c;
     font-family: 'Montserrat', sans-serif;
     padding-top: 20px;
 text-align: center;
 }
 
 .about_silver{
-    border: 2px solid #c00000;
+    border: 2px solid #2b465c;
     margin-top: 40px;
     
 }
 
 .about_silver ul{
-    color: #c00000;
+    color: #2b465c;
     font-family: 'Montserrat', sans-serif;
-    line-height: 4;
+    
 }
 
 .about_red{
-    border: 2px solid #c00000;
+    border: 2px solid #2b465c;
     margin-top: 40px;
     
 }
 
 .about_red ul{
-    color: #c00000;
+    color: #2b465c;
     font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
 }
 
 .about_red_india{
-    border: 2px solid #c00000;
+    border: 2px solid #2b465c;
     margin-top: 40px;
     
 }
 
 .about_red_india ul{
-    color: #c00000;
+    color: #2b465c;
     font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
 }
@@ -284,3 +305,67 @@ padding-top: 40px; }
   }
 }
 
+/* services css */
+
+.services{
+    background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(245, 246, 252, 0.52)), url(../images/backgrounds/services_bg.jpg);
+    background-size: cover;
+}
+
+.services h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #2b465c;
+}
+
+.service-tagline{
+    font-family: 'Montserrat', sans-serif;
+    color: #2b465c;
+    text-align: center;
+}
+
+.service-container-1{
+    background-color: #304e66;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+         margin-bottom: 20px;
+         margin-top: 20px;
+}
+
+.services-list{
+    color:antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.service-container-2{
+    background-color: antiquewhite;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+         margin-bottom: 20px;
+         margin-top: 20px;
+}
+
+.services-list-1{
+    color:#304e66;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+}
+
+.service-slider-title{
+    color:#304e66;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#owl-demo .item{
+    margin: 3px;
+  }
+  #owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: 200px;
+  }
