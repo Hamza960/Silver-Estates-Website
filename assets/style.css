@@ -157,6 +157,34 @@
     color: antiquewhite;
     font-family: 'Montserrat', sans-serif;
 }
+
+.btns{
+  float: right;
+  margin-top: 25%;
+  background-color: #2b465c;
+  color: white;
+  border : 1px solid #2b465c;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  margin-left: 5px;
+  z-index: 999;
+}
+
+.btns2{
+  float: right;
+  margin-top: 20%;
+  background-color: #2b465c;
+  color: white;
+  border : 1px solid #2b465c;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  position: fixed;
+  margin-left: 5px;
+  z-index: 999;
+}
 @media only screen and (max-width: 767px) {
     .banner_img{
         text-align: center !important;
@@ -181,6 +209,14 @@
 
     .service_button{
         margin-top: 20px;
+    }
+
+    .main_list{
+      display: none;
+    }
+
+    .btns{
+      margin-top: 35%;
     }
 
     
