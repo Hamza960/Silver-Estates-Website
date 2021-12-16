@@ -1,5 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /* banner css */
+
+.main_title {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
+}
+
+.main_list {
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 3;
+  animation-fill-mode:forwards;
+}
+
+.main_desc {
+  animation: fadeInAnimation ease 4s;
+  animation-iteration-count: 2;
+  animation-fill-mode:forwards;
+}
+
+@-webkit-keyframes flip {
+  from {
+    transform: rotateY(90deg)
+  }
+  to {
+    transform: rotateY(0deg)
+  }
+}
+@keyframes flip {
+  from {
+    transform: rotateY(90deg)
+  }
+  to {
+    transform: rotateY(0deg)
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
 .banner{
     background-image: url(../images/backgrounds/main_background.png);
     background-size: cover;
@@ -130,6 +174,8 @@
 
 .banner_img{
     border-right: 2px solid #797b7e;
+    -webkit-animation: flip 1s;
+  animation: flip 1s;
     
 }
 
@@ -253,6 +299,9 @@ text-align: center;
 .about_silver{
     border: 2px solid #2b465c;
     margin-top: 40px;
+    animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
     
 }
 
@@ -265,6 +314,9 @@ text-align: center;
 .about_red{
     border: 2px solid #2b465c;
     margin-top: 40px;
+    animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
     
 }
 
@@ -277,6 +329,9 @@ text-align: center;
 .about_red_india{
     border: 2px solid #2b465c;
     margin-top: 40px;
+    animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode:forwards;
     
 }
 
@@ -360,14 +415,19 @@ padding-top: 40px; }
 
 /* services css */
 
-.services{
+/* .services{
     background-image:linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(245, 246, 252, 0.52)), url(../images/backgrounds/services_bg.jpg);
     background-size: cover;
 }
-
+ */
 .services h1{
     font-family: 'Montserrat', sans-serif;
     color: #2b465c;
+}
+
+.services h4{
+  font-family: 'Montserrat', sans-serif;
+  color: #2b465c;
 }
 
 .service-tagline{
@@ -421,6 +481,14 @@ padding-top: 40px; }
     display: block;
     width: 100%;
     height: 200px;
+  }
+
+  .service-images{
+    background: transparent;
+  }
+
+  .img-side, .text-side{
+    align-items: center;
   }
 
 
