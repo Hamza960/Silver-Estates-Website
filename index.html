@@ -66,7 +66,7 @@
         </nav>
     </header>
     <button class = "btns2">
-        <a href = "https://wa.me/+91 9890851007"><i class="fab fa-whatsapp" aria-hidden="true" style = "font-size: 20px;"></i></a>
+        <a href = "https://wa.me/9890851007"><i class="fab fa-whatsapp" aria-hidden="true" style = "font-size: 20px;"></i></a>
     </button>
     <button class = "btns">
         <a href = "tel:9890851007"><i class = "fa fa-phone"></i></a>
@@ -245,7 +245,7 @@
         <div class = "container">
             <h1 class = "text-center pt-5">Our Services</h1>
             <p class = "service-tagline">We are providing our services for Real estate consultancy, Construction and interiors for following sectors</p>
-            <div class = "row">
+            <!-- <div class = "row">
                 <div class = "col-md-6">
                     <div class = "service-container-1 p-3">
                         <ul class = "services-list">
@@ -274,8 +274,79 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            <h1 class = "service-slider-title">Image Gallery</h1>
+            </div> -->
+            <div id="owl-demo1" class = "pb-5">
+          
+                <div class="item">
+                    <div class = "row">
+                        <div class = "col-md-6 text-center">
+                            <img src = "images/services/residence-removebg-preview.png" alt = "" class = "img-fluid service-images" width = "400">
+                        </div>
+                        <div class = "col-md-6 text-center mt-5">
+                            <h1>Residential buildings</h1>
+                            <h4>You can dream of the house and leave the rest to us. We at Silver Estates Corporation take care of all your residential needs!</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class = "row">
+                        <div class = "col-md-6 text-center ">
+                            <img src = "images/services/commercial-removebg-preview.png" alt = "" class = "img-fluid" width = "400">
+                        </div>
+                        <div class = "col-md-6 mt-5 text-center">
+                            <h1>Commercial buildings</h1>
+                            <h4>Building the future. Restoring the past. Top quality commercial buildings is our mission.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class = "row">
+                        <div class = "col-md-6 text-center img-side">
+                            <img src = "images/services/industries-removebg-preview.png" alt = "" class = "img-fluid" width = "400">
+                        </div>
+                        <div class = "col-md-6 text-center mt-5">
+                            <h1>Industrial Structures</h1>
+                            <h4>Our Belief - Excellence is not an act but a habit. Industrial structures with excellent construction is a boon.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class = "row">
+                        <div class = "col-md-6 text-center">
+                            <img src = "images/services/farm-house-removebg-preview.png" alt = "" class = "img-fluid" width = "400">
+                        </div>
+                        <div class = "col-md-6 mt-5 text-center">
+                            <h1>Farm Houses</h1>
+                            <h4>Joy comes with the morning. Experience the best vacations in farmhouses that leave one mesmerized.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class = "row">
+                        <div class = "col-md-6 text-center">
+                            <img src = "images/services/gardens-removebg-preview.png" alt = "" class = "img-fluid" width = "400">
+                        </div>
+                        <div class = "col-md-6 mt-5 text-center">
+                            <h1>Gardens and Land Scaping</h1>
+                            <h4>A beautiful garden is a work of heart. And a work of heart is what we like to do.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class = "row">
+                        <div class = "col-md-6 text-center">
+                            <img src = "images/services/villa-removebg-preview.png" alt = "" class = "img-fluid" width = "400">
+                        </div>
+                        <div class = "col-md-6 mt-5 text-center">
+                            <h1>Villas</h1>
+                            <h4>Blending Relaxation & Sophistication to Create the Ideal Place. Your home, your heaven.</h4>
+                        </div>
+                    </div>
+                </div>
+                
+               
+              </div> 
+            <h1 class = "service-slider-title">What We Do</h1>
           <div id="owl-demo" class = "pb-5">
           
                 <div class="item"><img src="images/services/Picture7.jpg" alt="Owl Image"></div>
@@ -472,6 +543,15 @@
      itemsDesktopSmall : [979,3]
 
  });
+ $("#owl-demo1").owlCarousel({
+
+autoPlay: 5000, //Set AutoPlay to 5 seconds
+
+items : 1,
+itemsDesktop : [1199,3],
+itemsDesktopSmall : [979,3]
+
+});
 
 });
 </script>
