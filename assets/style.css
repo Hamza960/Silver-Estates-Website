@@ -66,6 +66,10 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav-logo{
+  width : 50px;
+}
+
 .dropdown-menu{
     background-color: #304e66 !important;
     
